@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af81f081-2e5b-4e11-a693-0e577c74c60b" name="更改" comment="ex1_solution">
-      <change afterPath="$PROJECT_DIR$/homework/ex1/my_solution.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/ex1/univariate_main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework/ex1/solution.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/homework/ex1/solution.ipynb" afterDir="false" />
-    </list>
+    <list default="true" id="af81f081-2e5b-4e11-a693-0e577c74c60b" name="更改" comment="ex1 标答及我的解答" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,6 +66,7 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Python.main.executor": "Run",
+    "Python.multivariate_main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "node.js.detected.package.eslint": "true",
@@ -88,7 +83,30 @@
       <recent name="C:\Users\86180\Desktop\learn_space\python\Machine_Learning\homework\ex1" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.multivariate_main">
+    <configuration name="multivariate_main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Machine_learning" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework/ex1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework/ex1/multivariate_main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="univariate_main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Machine_learning" />
       <option name="ENV_FILES" value="" />
@@ -114,6 +132,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.multivariate_main" />
         <item itemvalue="Python.univariate_main" />
       </list>
     </recent_temporary>
@@ -135,7 +154,8 @@
       <option name="presentableId" value="Default" />
       <updated>1722738457998</updated>
       <workItem from="1722738461334" duration="12364000" />
-      <workItem from="1722826382447" duration="8142000" />
+      <workItem from="1722826382447" duration="8247000" />
+      <workItem from="1722904396700" duration="5700000" />
     </task>
     <task id="LOCAL-00001" summary="ex1_solution">
       <option name="closed" value="true" />
@@ -153,7 +173,31 @@
       <option name="project" value="LOCAL" />
       <updated>1722740706230</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="111">
+      <option name="closed" value="true" />
+      <created>1722840480683</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1722840480683</updated>
+    </task>
+    <task id="LOCAL-00004" summary="ex1 标答及我的解答">
+      <option name="closed" value="true" />
+      <created>1722909904093</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1722909904093</updated>
+    </task>
+    <task id="LOCAL-00005" summary="ex1 标答及我的解答">
+      <option name="closed" value="true" />
+      <created>1722909961758</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1722909961758</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,9 +206,12 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="ex1_solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="ex1_solution" />
+    <MESSAGE value="111" />
+    <MESSAGE value="ex1 标答及我的解答" />
+    <option name="LAST_COMMIT_MESSAGE" value="ex1 标答及我的解答" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Machine_Learning$main.coverage" NAME="main 覆盖结果" MODIFIED="1722840217060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/ex1" />
+    <SUITE FILE_PATH="coverage/Machine_Learning$multivariate_main.coverage" NAME="multivariate_main 覆盖结果" MODIFIED="1722909767084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/ex1" />
   </component>
 </project>
